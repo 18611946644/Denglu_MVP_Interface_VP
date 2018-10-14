@@ -2,8 +2,6 @@ package com.bwie.zk02moni.presenter;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
-import com.bumptech.glide.load.resource.bitmap.BitmapEncoder;
 import com.bwie.zk02moni.bean.LoginBean;
 import com.bwie.zk02moni.model.LoginModel;
 import com.bwie.zk02moni.view.ICallBack;

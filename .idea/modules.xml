@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZK02MONi.iml" filepath="$PROJECT_DIR$/ZK02MONi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Denglu_MVP_Interface_VP.iml" filepath="$PROJECT_DIR$/Denglu_MVP_Interface_VP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
