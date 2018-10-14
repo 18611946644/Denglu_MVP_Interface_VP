@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.zk02moni.activity.InformationActivity"
+    android:orientation="vertical"
+    >
+
+    //头部
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#f00"
+        >
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textColor="#fff"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="账户信息"
+            android:textColor="#fff"
+            android:layout_marginLeft="130dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="账号信息"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_nicheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="昵称"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_tuichu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#f00"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="#fff"
+        android:layout_marginTop="90dp"
+        />
+
+
+</LinearLayout>
