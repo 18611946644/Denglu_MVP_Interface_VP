@@ -18,8 +18,6 @@ import com.bwie.zk02moni.view.IView;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener,IView<LoginBean> {
 
-    public int FLAG = 123;
-
     private Button btnReturn;
     private EditText etPhono;
     private EditText etPassword;
