@@ -17,7 +17,6 @@ public class InformationActivity extends AppCompatActivity implements View.OnCli
     private EditText etNiCheng;
     private Button btnTuiChu;
     private SharedPreferences sp;
-    private Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
